@@ -14,7 +14,7 @@ function list1(elem) {
     let Text = document.getElementById(idText);
     let button = document.getElementById(idButton);
     
-    Text.classList.toggle("hidden");
+    Text.classList.toggle("pushIn");
     button.classList.toggle("plusRoll")
 }
 

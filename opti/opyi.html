@@ -11,6 +11,8 @@
     <script src="js/jquery.twentytwenty.js" type="text/javascript"></script><!--подключение плагина twentytwenty-->
     <script src="js/script.js"></script><!--основной скрипт-->
     <script src="js/slider.js"></script><!--скрипт слайдера-->
+    <script src="https://kit.fontawesome.com/830293ef9d.js" crossorigin="anonymous"></script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="EI=edge">
 </head>
@@ -18,7 +20,7 @@
 
     <!--шапка-->
     <div class="header">
-        <a><img class="header_logo" src="img/logo.png"></a>
+        <a href="#"><img class="header_logo" src="img/logo.png"></a>
         <a class="header_buttons space disappear" href="#scoupWork">Состав работы</a>
         <a class="header_buttons disappear" href="#certi">Сертификаты</a>
         <a class="header_buttons special_button disappear" href="#1C">Консультация</a>
@@ -28,8 +30,9 @@
             <div class="bar3"></div>
             <div class="bar4"></div>
         </div>
-        <!--открывающееся окно-->
     </div>
+    <!--lock on top-->
+        <!--открывающееся окно-->
     <div class="popUpMenu hidden" id="popUp">
         <div class="popUpContent">
             <p><a href="#scoupWork" onclick="myFunction()">Состав работы</a></p>
@@ -37,7 +40,7 @@
             <p><a href="#1C" onclick="myFunction()">Консультация</a></p>
         </div>
     </div>
-
+    <!--Lock scrol-->
     <!--переезд на 1C-->
     <div class="textBlok" id="1C">
         <div class="firstBlok_textContent">
@@ -131,13 +134,7 @@
         <a href="" style="text-decoration: none;">
             <div class="aspro">
                 <h2>Какаой АСПРО выбрать?</h2>
-                <div class="arrow">
-                    <svg role="presentation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="26" height="26">
-                        <g class="nc-icon-wrapper" fill="#ffffff">
-                            <polygon fill="#ffffff" points="9.3,1.3 7.9,2.7 12.2,7 0,7 0,9 12.2,9 7.9,13.3 9.3,14.7 16,8 "></polygon>
-                        </g>
-                    </svg>
-                </div>
+                <i class="fa-solid fa-arrow-right"></i>
             </div>      
         </a>  
     </div>
@@ -155,11 +152,11 @@
         </div>
         <div class="textBlok">    
             <div class="blok1"><!--что-то не так-->
-                <div style="margin: 0 auto 0 0;" class="blok1_div">
+                <div class="blok1_div">
                     <h4>SEO сайта</h4>
                     <p>Умеем оптимизировать сайты для повышения посещаемости. Базовая настройка SEO уже включена в список задач.</p>
                 </div>
-                <img src="img/pfone.png" style="margin: 0 0 0 auto;" class="blok_img">
+                <img src="img/pfone.png" class="blok_img">
             </div>
         </div>
         <div class="textBlok"> 
@@ -196,7 +193,7 @@
             
             <div class="line">
                 <div></div>
-                <p>»</p>
+                <i class="fa-solid fa-angles-right"></i>
                 <div></div>
             </div>
         </div>
@@ -216,7 +213,7 @@
             
             <div class="line">
                 <div></div>
-                <p>«</p>
+                <i class="fa-solid fa-angles-left"></i>
                 <div></div>
             </div>
         </div>    
@@ -236,7 +233,7 @@
             
             <div class="line">
                 <div></div>
-                <p>»</p>
+                <i class="fa-solid fa-angles-right"></i>
                 <div></div>
             </div>  
         </div>
@@ -256,7 +253,7 @@
             
             <div class="line">
                 <div></div>
-                <p>«</p>
+                <i class="fa-solid fa-angles-left"></i>
                 <div></div>
             </div>
         </div>
@@ -281,13 +278,7 @@
         <a href="" style="text-decoration: none;">
             <div class="aspro">
                 <h2>Получить все кейсы</h2>
-                <div class="arrow">
-                    <svg role="presentation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="26" height="26">
-                        <g class="nc-icon-wrapper" fill="#ffffff">
-                            <polygon fill="#ffffff" points="9.3,1.3 7.9,2.7 12.2,7 0,7 0,9 12.2,9 7.9,13.3 9.3,14.7 16,8 "></polygon>
-                        </g>
-                    </svg>
-                </div>
+                <i class="fa-solid fa-arrow-right"></i>
             </div>      
         </a>
     </div>
@@ -390,22 +381,22 @@
                 <div class="card1">
                     <img src="img/card1.svg" alt="">
                     <div>
-                        <h2>Наполнение</h2>
-                         <p>Интеграция с 1С<br>Интеграция с МойСклад<br>Интеграция с Бизнес.Ру<br>Выгрузка из прайсов<br>Ручное наполнение</p>
+                        <h4>Наполнение</h4>
+                         <p class="card1_p">Интеграция с 1С<br>Интеграция с МойСклад<br>Интеграция с Бизнес.Ру<br>Выгрузка из прайсов<br>Ручное наполнение</p>
                     </div>
                 </div>
                 <div class="card1">
                     <img src="img/card2.svg" alt="">
                     <div>
-                        <h2>Наполнение</h2>
-                        <p>Интеграция с ЯКасса <br>Интеграция с банками <br>И другие эквайринги</p>
+                        <h4>Наполнение</h4>
+                        <p class="card1_p">Интеграция с ЯКасса <br>Интеграция с банками <br>И другие эквайринги</p>
                     </div>
                 </div>
                 <div class="card1">
                     <img src="img/card3.svg" alt="">
                     <div>
-                        <h2>Доставка</h2>
-                         <p>Подключение к СДЭК <br>Подключение к ПЭК <br>Подключение к Boxberry <br>И другие доставки</p>
+                        <h4>Доставка</h4>
+                         <p class="card1_p">Подключение к СДЭК <br>Подключение к ПЭК <br>Подключение к Boxberry <br>И другие доставки</p>
                     </div>
                 </div>
             </div>
@@ -413,22 +404,22 @@
                 <div class="card1">
                     <img src="img/card4.svg" alt="">
                     <div>
-                        <h2>Дизайн</h2>
-                         <p>Разработка баннеров <br>Разработка тизеров <br>Разработка логотипов</p>
+                        <h4>Дизайн</h4>
+                         <p class="card1_p">Разработка баннеров <br>Разработка тизеров <br>Разработка логотипов</p>
                     </div>
                 </div>
                 <div class="card1">
                     <img src="img/card5.svg" alt="">
                     <div>
-                        <h2>Продвижение</h2>
-                         <p>SEO оптимизация <br>Написание текстов <br>Работа со ссылками <br>        Подключение https</p>
+                        <h4>Продвижение</h4>
+                         <p class="card1_p">SEO оптимизация <br>Написание текстов <br>Работа со ссылками <br>        Подключение https</p>
                     </div>
                 </div>
                 <div class="card1">
                     <img src="img/card6.svg" alt="">
                     <div>
-                        <h2>Реклама</h2>
-                         <p>Реклама в Яндекс <br>Реклама в Google <br>Реклама в соц. сетях</p>
+                        <h4>Реклама</h4>
+                         <p class="card1_p">Реклама в Яндекс <br>Реклама в Google <br>Реклама в соц. сетях</p>
                     </div>
                 </div>
             </div>
@@ -448,7 +439,7 @@
                 </div>
                 <h4>1С:Битрикс Управление сайтом</h4>
                 <p>Контент-менеджер, Администратор. Базовый, Администратор. Модули, Администратор. Бизнес, Разработчик Bitrix Framework, Технология Композитный сайт</p>
-                <button><a href="#start">Получить консультацию</a></button>
+                <a href="#start"><button>Получить консультацию</button></a>
             </div>
             <div class="certi_card1">
                 <div class="cardImg">
@@ -456,7 +447,7 @@
                 </div>
                 <h4>Решения АСПРО</h4>
                 <p>Есть примеры работ. Оставляйте заявку и мы отправим вам коммерческое предложение.</p>
-                <button><a href="#start">Получить консультацию</a></button>
+                <a href="#start"><button>Получить консультацию</button></a>
             </div>
         </div>
     </div>
@@ -486,20 +477,20 @@
         </button>
         <div class="sliderBox">
             <div class="sliderCont1">
-                <p class="sliderTitle">Добрый день, отличная работа менеджера и всей команды. Рекомендую к сотрудничеству.</p>
+                <h4 class="sliderTitle">Добрый день, отличная работа менеджера и всей команды. Рекомендую к сотрудничеству.</h4>
                 <img src="img/Coment1.png" alt="" class="imgComent">
                 <p class="sliderText"><b>Александр</b><br>Маркетолог <a href="">Wellside</a></p>
             </div>
             <div class="sliderCont1 hidden">
-                <p class="sliderTitle">Оценка работы менеджера проекта 5.<br>Круто!</p>
+                <h4 class="sliderTitle">Оценка работы менеджера проекта 5.<br>Круто!</h4>
                 <img src="img/Coment2.png" alt="" class="imgComent">
                 <p class="sliderText"> <b>Георгий Головин</b><br>АКБ Сервис</p>
             </div>
             <div class="sliderCont1 hidden">
-                <p class="sliderTitle">Оценка 10 Порекомендовали бы нас? Точно да
-                    Комментарий: Спасибо за заботу!</p>
+                <h4 class="sliderTitle">Оценка 10 Порекомендовали бы нас? Точно да
+                    Комментарий: Спасибо за заботу!</h4>
                 <img src="img/Coment3.jpg" alt="" class="imgComent">
-                <p class="sliderText">Василий<br>ООО Е-Транс</p>
+                <p class="sliderText"><b>Василий</b><br>ООО Е-Транс</p>
             </div>
         </div>
         <button class="Left" onclick="tapRight()">
@@ -533,7 +524,7 @@
                     <div class="plusHoriz"></div>
                 </div>
             </div>
-            <div class="liList1 hidden" id="plus1text">
+            <div class="liList1 pushIn" id="plus1text">
                 <li>Полностью возьмем на себя подбор решения, установку, запуск до готового продукта и продвижение.</li>
             </div>
             <div class="underTitl_farWatList">
@@ -543,7 +534,7 @@
                     <div class="plusHoriz"></div>
                 </div>
             </div>
-            <div class="liList1 hidden" id="plus2text">
+            <div class="liList1 pushIn" id="plus2text">
                 <li>Обозначим все актуальные задачи, предложим то, что нужно выполнить исходя из опыта и доведем проект до конца.</li>
             </div>
             <div class="underTitl_farWatList">
@@ -553,7 +544,7 @@
                     <div class="plusHoriz"></div>
                 </div>
             </div>
-            <div class="liList1 hidden" id="plus3text">
+            <div class="liList1 pushIn" id="plus3text">
                 <li>Возьмем полное ведение сайта и другие источники привлечения траффика.</li>
             </div>
         </div>
@@ -609,8 +600,8 @@
                 </div>
             </div>
 
-           <div class="Line_contayner">
-                <div class="Line"></div>
+           <div class="Line1_contayner">
+                <div class="Line1"></div>
                 <p>ООО ГК "ОПТИ" 2022</p>
             </div>
         </div>
